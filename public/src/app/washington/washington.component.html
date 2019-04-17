@@ -1,0 +1,13 @@
+<div class="col-sm-6 offset-sm-3 mt-5" style="height: 10px;">
+  <div class="card mb-3">
+    <img src="https://images.pexels.com/photos/332208/pexels-photo-332208.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title">{{weather.name}}</h3>
+      <p class="card-text">Humidity:{{weather.main.humidity}}</p>
+      <p class="card-text">Temperature (Average):{{weather.main.temp}} </p>
+      <p class="card-text">Temperature (High):{{weather.main.temp_max}} </p>
+      <p class="card-text">Temperature(Low):{{weather.main.temp_min}} </p>
+      <p class="card-text">Status:{{weather.weather[0].description}} </p>
+    </div>
+  </div>
+</div>
